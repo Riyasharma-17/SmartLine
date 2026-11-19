@@ -36,10 +36,30 @@ In transformer manufacturing, one slow station (e.g., manual core stacking) sets
 | **3. SOP & Troubleshooting Copilot** | Gemini 2.5 Flash + offline rules engine | Takes the bottleneck and defect findings from Modules 1 and 2 and generates a downloadable SOP with process steps, quality checkpoints, and a troubleshooting table. Works fully offline without an API key. |
 
 ## Screenshots
-![Simulator](assetstab1_simulator.png)
-![Vision Inspector](assetstab2_vision.png)
-![SOP Copilot](assetstab3_sop.png)
 
+### 1. Lean Cycle-Time & Cobot ROI Simulator
+Models a 5-stage serial power transformer assembly line (*Core Lamination Stacking → HV/LV Copper Coil Winding → Vapor Phase Drying → Active Part Tanking → High-Voltage Routine Testing*). Toggling automation retrofits dynamically recalculates station cycle variance, shifts the primary bottleneck, and boosts Line OEE from **60.6% → 81.5%** (+16.7% throughput gain).
+
+![Lean Cycle-Time & Cobot ROI Simulator](assetstab1_simulator.png)
+
+---
+
+### 2. Vision Poka-Yoke & Alignment Inspector
+Runs an explainable, deterministic computer vision pipeline on overhead assembly feeds (or custom uploaded images) without requiring GPU inference:
+- **Winding Alignment Metrology:** Extracts conductor turn angles via Canny edge detection and Probabilistic Hough Line Transforms (`±1.50°` engineering tolerance).
+- **Surface & Fastener Inspection:** Detects interlaminar silicon-steel core scratches and missing M20 corner clamping bolts.
+- **Automated PLC Interlock:** Outputs `DB100.DBX0.0 = 1` (**PASS — Advance Conveyor**) or `DB100.DBX0.0 = 0` (**REJECT — Halt & Route to Rework**).
+
+![Vision Poka-Yoke & Alignment Inspector](assetstab2_vision.png)
+
+---
+
+### 3. GenAI Auto-SOP & Commissioning Copilot
+Pulls live telemetry directly from Tabs 1 and 2 to generate structured, audit-ready Standard Operating Procedures (SOPs) complete with root-cause cycle balancing actions, Lockout/Tagout (LOTO) safety protocols, and downloadable Markdown reports. Includes a built-in deterministic industrial rules engine so it runs 100% offline with zero API keys required.
+
+![GenAI Auto-SOP & Commissioning Copilot](assetstab3_sop.png)
+
+---
 ## Key formulas
 - **Takt Time** = Available shift time ÷ Target daily output
 - **OEE** = Availability × Performance × Quality
