@@ -4,6 +4,10 @@
 
 ---
 
+
+https://github.com/user-attachments/assets/d025546a-8eb8-4d86-b525-0ed8839c49e1
+
+
 ## 🎯 Engineering Problem Statement
 
 Heavy power transformer manufacturing relies on high-precision, multi-stage assembly workflows—from CRGO silicon-steel core stacking to high-voltage copper coil winding and routine impulse testing. Manual execution introduces cycle-time bottlenecks that exceed customer **Takt Time**, while subtle winding alignment skews or missing clamping fasteners can cause catastrophic failures during High-Voltage Factory Acceptance Testing (FAT).
