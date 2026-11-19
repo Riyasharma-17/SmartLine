@@ -7,6 +7,14 @@
 
 **👉 Live demo: https://smartline-grid-automation.streamlit.app/** (no install, no API key needed)
 
+---
+
+## 🎥 End-to-End Video Walkthrough
+
+https://github.com/user-attachments/assets/d025546a-8eb8-4d86-b525-0ed8839c49e1
+
+---
+
 ## What is this?
 A proof-of-concept tool that shows how **lean manufacturing, automation, and computer vision** can work together on a **power transformer assembly line**. It simulates a 5-stage line, finds the bottleneck, tests the effect of adding automation, inspects assembly images for defects, and auto-generates a shop-floor SOP.
 
