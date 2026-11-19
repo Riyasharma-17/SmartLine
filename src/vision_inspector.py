@@ -64,8 +64,7 @@ def inspect_transformer_assembly(image_bgr: np.ndarray) -> InspectionResult:
 
         angles = []
         if lines is not None:
-            for line in lines:
-                lx1, ly1, lx2, ly2 = line[0]
+            for lx1, ly1, lx2, ly2 in lines.reshape(-1, 4):
                 dx = float(lx2 - lx1)
                 dy = float(ly2 - ly1)
                 if abs(dx) > 40:  # Inspect horizontal winding conductor turns
