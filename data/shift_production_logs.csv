@@ -1,0 +1,151 @@
+shift_id,shift_type,station_id,station_name,process_type,cycle_time_min,unplanned_downtime_min,rework_triggered,units_completed
+SHIFT-001,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,53.77,0.0,0,8
+SHIFT-001,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,52.23,0.0,1,9
+SHIFT-001,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,40.23,2.62,0,11
+SHIFT-001,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,49.69,0.0,0,9
+SHIFT-001,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,37.71,0.23,0,12
+SHIFT-002,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,47.84,0.0,0,10
+SHIFT-002,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,48.57,0.0,0,9
+SHIFT-002,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.12,1.13,0,11
+SHIFT-002,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,48.93,0.0,0,9
+SHIFT-002,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,41.54,0.59,0,11
+SHIFT-003,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,55.57,0.8,0,8
+SHIFT-003,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,44.29,0.0,0,10
+SHIFT-003,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,40.98,0.0,0,11
+SHIFT-003,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,46.49,0.0,0,10
+SHIFT-003,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,35.54,0.42,0,13
+SHIFT-004,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,57.06,0.0,0,8
+SHIFT-004,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,47.28,0.32,0,10
+SHIFT-004,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,39.84,0.0,0,12
+SHIFT-004,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,45.99,0.0,0,10
+SHIFT-004,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,38.11,2.39,0,12
+SHIFT-005,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,56.98,0.0,0,8
+SHIFT-005,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,42.9,6.38,1,11
+SHIFT-005,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.24,0.0,0,11
+SHIFT-005,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,48.63,0.0,0,9
+SHIFT-005,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,33.41,4.29,1,14
+SHIFT-006,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,56.22,0.0,0,8
+SHIFT-006,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,51.56,0.0,0,9
+SHIFT-006,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.22,0.0,0,11
+SHIFT-006,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,40.31,5.63,0,11
+SHIFT-006,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,37.36,2.79,0,12
+SHIFT-007,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,49.93,0.0,0,9
+SHIFT-007,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,47.08,0.0,1,10
+SHIFT-007,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.51,2.42,0,11
+SHIFT-007,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,43.5,0.0,0,11
+SHIFT-007,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,33.73,0.0,0,14
+SHIFT-008,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,62.69,1.0,0,7
+SHIFT-008,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,50.39,0.74,0,9
+SHIFT-008,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,44.03,3.72,0,10
+SHIFT-008,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,45.76,0.0,0,10
+SHIFT-008,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,35.87,0.0,0,13
+SHIFT-009,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,53.82,0.0,1,8
+SHIFT-009,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,61.11,0.0,0,7
+SHIFT-009,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,36.16,1.18,0,13
+SHIFT-009,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,43.43,0.0,1,11
+SHIFT-009,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,35.38,0.0,0,13
+SHIFT-010,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,43.69,1.67,0,10
+SHIFT-010,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,57.36,3.36,0,8
+SHIFT-010,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,39.27,0.0,1,12
+SHIFT-010,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,56.34,0.0,0,8
+SHIFT-010,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,34.23,5.33,0,14
+SHIFT-011,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,51.76,0.47,0,9
+SHIFT-011,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,42.48,0.0,0,11
+SHIFT-011,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,42.84,0.0,0,11
+SHIFT-011,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,47.2,0.0,0,10
+SHIFT-011,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,34.01,3.51,0,14
+SHIFT-012,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,54.46,0.35,0,8
+SHIFT-012,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,57.16,0.68,0,8
+SHIFT-012,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,39.41,0.0,0,12
+SHIFT-012,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,45.74,0.02,0,10
+SHIFT-012,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,39.78,0.0,0,12
+SHIFT-013,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,40.11,0.0,0,11
+SHIFT-013,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,42.52,0.0,0,11
+SHIFT-013,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.65,0.83,0,11
+SHIFT-013,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,48.05,2.17,0,9
+SHIFT-013,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,36.29,3.5,0,13
+SHIFT-014,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,52.1,0.0,0,9
+SHIFT-014,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,44.52,0.0,0,10
+SHIFT-014,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,45.93,0.0,0,10
+SHIFT-014,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,46.19,0.0,0,10
+SHIFT-014,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,37.16,0.0,0,12
+SHIFT-015,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,48.21,0.0,0,9
+SHIFT-015,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,43.22,0.0,0,11
+SHIFT-015,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,39.05,0.0,0,12
+SHIFT-015,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,45.6,0.0,0,10
+SHIFT-015,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,40.11,0.0,0,11
+SHIFT-016,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,64.05,0.9,1,7
+SHIFT-016,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,50.94,0.28,0,9
+SHIFT-016,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,42.8,0.5,0,11
+SHIFT-016,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,41.63,0.03,1,11
+SHIFT-016,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,37.53,0.0,0,12
+SHIFT-017,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,54.04,0.0,0,8
+SHIFT-017,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,44.75,1.24,1,10
+SHIFT-017,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,43.77,0.0,0,10
+SHIFT-017,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,42.8,0.0,0,11
+SHIFT-017,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,32.33,6.7,0,14
+SHIFT-018,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,43.28,0.0,0,11
+SHIFT-018,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,44.4,0.0,0,10
+SHIFT-018,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.49,2.91,0,11
+SHIFT-018,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,48.04,0.0,0,9
+SHIFT-018,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,35.83,0.58,0,13
+SHIFT-019,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,41.81,0.72,0,11
+SHIFT-019,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,51.89,0.0,0,9
+SHIFT-019,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,38.1,0.0,0,12
+SHIFT-019,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,48.45,1.5,0,9
+SHIFT-019,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,39.19,0.0,0,12
+SHIFT-020,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,51.68,3.26,0,9
+SHIFT-020,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,44.1,0.0,0,10
+SHIFT-020,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.53,6.14,0,11
+SHIFT-020,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,50.47,11.35,0,9
+SHIFT-020,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,35.16,0.0,0,13
+SHIFT-021,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,47.95,6.85,0,10
+SHIFT-021,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,44.98,0.74,0,10
+SHIFT-021,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.1,0.0,0,11
+SHIFT-021,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,46.3,0.0,0,10
+SHIFT-021,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,30.05,1.36,0,15
+SHIFT-022,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,61.96,0.0,0,7
+SHIFT-022,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,46.83,2.37,0,10
+SHIFT-022,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.82,0.0,0,11
+SHIFT-022,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,46.78,7.77,0,10
+SHIFT-022,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,33.86,0.0,0,14
+SHIFT-023,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,47.69,0.0,0,10
+SHIFT-023,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,51.8,0.0,0,9
+SHIFT-023,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.54,2.71,0,11
+SHIFT-023,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,45.14,0.0,0,10
+SHIFT-023,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,33.9,0.0,1,14
+SHIFT-024,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,44.11,0.0,0,10
+SHIFT-024,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,45.83,0.0,0,10
+SHIFT-024,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.9,0.0,0,11
+SHIFT-024,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,47.63,0.0,0,10
+SHIFT-024,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,38.08,0.0,0,12
+SHIFT-025,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,52.8,0.0,1,9
+SHIFT-025,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,50.39,5.44,0,9
+SHIFT-025,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.48,0.0,0,11
+SHIFT-025,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,44.88,2.44,1,10
+SHIFT-025,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,31.89,0.0,0,15
+SHIFT-026,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,49.47,0.0,0,9
+SHIFT-026,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,50.29,0.0,0,9
+SHIFT-026,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.28,0.0,0,11
+SHIFT-026,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,53.09,0.0,0,9
+SHIFT-026,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,34.97,3.71,0,13
+SHIFT-027,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,56.66,0.0,0,8
+SHIFT-027,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,49.77,10.68,0,9
+SHIFT-027,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,36.7,1.82,0,13
+SHIFT-027,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,41.51,0.0,0,11
+SHIFT-027,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,34.55,8.09,0,13
+SHIFT-028,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,51.41,0.0,0,9
+SHIFT-028,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,47.91,6.59,0,10
+SHIFT-028,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,42.03,0.06,0,11
+SHIFT-028,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,48.07,0.0,0,9
+SHIFT-028,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,37.2,0.0,0,12
+SHIFT-029,Day,ST-01,Core Lamination Stacking,Mechanical Assembly,47.17,0.0,0,10
+SHIFT-029,Day,ST-02,HV/LV Copper Coil Winding,Precision Winding,42.97,0.0,1,11
+SHIFT-029,Day,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,43.49,0.0,0,11
+SHIFT-029,Day,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,47.46,0.0,0,10
+SHIFT-029,Day,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,35.44,0.0,0,13
+SHIFT-030,Night,ST-01,Core Lamination Stacking,Mechanical Assembly,59.57,0.0,0,8
+SHIFT-030,Night,ST-02,HV/LV Copper Coil Winding,Precision Winding,61.09,0.0,0,7
+SHIFT-030,Night,ST-03,Vapor Phase Drying & Insulation,Thermal Batch,41.56,0.0,0,11
+SHIFT-030,Night,ST-04,Active Part Tanking & Fastening,Heavy Crane & Torque,46.68,2.95,0,10
+SHIFT-030,Night,ST-05,High-Voltage Routine Testing,HV Impulse & Ratio,38.0,0.49,0,12
